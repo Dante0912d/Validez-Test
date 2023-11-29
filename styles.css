@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #00dbc1, #628cd4, #0600b0, #1c1c1c);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 850px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+label{
+    background-color: (white);
+    text-align: left;
+    font-size: 20px;
+}
+
+input{
+    align-items: right ;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    background: linear-gradient(to bottom, #000000, #b8b7d4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+h1{
+    color: white;
+    text-decoration:underline;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+    border: 5px solid #ccc;
+
+}
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #012041;
+}
